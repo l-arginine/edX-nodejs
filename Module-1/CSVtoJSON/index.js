@@ -17,7 +17,7 @@ const formatConverter = (file = inputFile) => {
     if(fs.existsSync(file)){
         console.log("File exists. Converting now...");
         csv().fromFile(file).then((jsonObj) => {
-            fs.writeFileSync(outputFile, JSON.stringify(jsonObj));
+            fs.writeFileSync(outputFile, JSON.stringify(jsonObj, null, 2));
         })
         console.log("Conversion completed");
     } else {
