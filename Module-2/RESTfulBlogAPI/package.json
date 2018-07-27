@@ -1,0 +1,22 @@
+{
+  "name": "restfulblogapi",
+  "version": "1.0.0",
+  "description": "Module 2 Assessment for edX Node JS Course",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-dev server.js"
+  },
+  "author": "Arjun M",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "errorhandler": "1.5.0",
+    "express": "4.16.3",
+    "morgan": "1.9.0"
+  },
+  "devDependencies": {
+    "node-dev": "3.1.3",
+    "npm-dev": "0.0.0"
+  }
+}
