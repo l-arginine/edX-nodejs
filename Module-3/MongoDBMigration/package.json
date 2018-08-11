@@ -1,15 +1,14 @@
 {
-  "name": "CSVtoJSON",
+  "name": "mongodbmigration",
   "version": "1.0.0",
-  "description": "",
+  "description": "Module-3 Assignment for edX nodeJS course.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Arjun M",
   "license": "ISC",
   "dependencies": {
-    "csvtojson": "2.0.6"
+    "mongodb": "3.1.1"
   }
 }
